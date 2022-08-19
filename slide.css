@@ -1,0 +1,25 @@
+body
+{
+    font-family:Verdana;
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+}
+
+#board
+{
+    width: 500px;
+    height: 500px;
+    border: 10px solid blueviolet;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img
+{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+}
