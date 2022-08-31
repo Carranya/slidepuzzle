@@ -31,6 +31,9 @@
         }
         $y = $y+100;
     }
+
+    $empty = imagecreatetruecolor(100, 100);
+    
     
 
     
