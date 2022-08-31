@@ -6,8 +6,8 @@
 </head>
 <body>
 <?php
-    $img = imagecreatefromjpeg("img/sm.jpg");
-    $image = imagescale($img, 500, 500);
+    $img = imagecreatefromjpeg("img/image.jpg");
+    $image = imagescale($img, 500);
     imagejpeg($image, "img/komplett.jpg");
     $file = 0;
     $y=0;
@@ -23,7 +23,6 @@
             $width = 100;
             $height = 100;
 
-            echo "x=$x, y=$x, width=$width, height=$height<br>";
             $newimg = imagecrop($image, ['x'=>$x,'y'=>$y, 'width'=>$width, 'height'=>$height]);
             imagejpeg($newimg, "img/" . $file . ".jpg");
 
@@ -33,7 +32,16 @@
     }
 
     $empty = imagecreatetruecolor(100, 100);
+
+    $color = imagecolorallocate($empty, 120, 190, 191);
+    imagefill($empty, 0, 0, $color);
+
+    imagejpeg($empty, "img/25.jpg");
     
+    imagedestroy($newimg);
+    imagedestroy($empty);
+
+    echo "<p>Created Image tiles</p>";
     
 
     
