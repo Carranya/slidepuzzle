@@ -34,3 +34,9 @@ body
     height: 98px;
     border: 1px solid black;
 }
+
+.foot
+{
+    font-size: 0.8em;
+    text-align: center;
+}
