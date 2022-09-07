@@ -46,6 +46,16 @@ body
     background-color: lightgreen;
 }
 
+.left img
+{
+    margin: 1px;
+}
+
+.left button
+{
+    margin: 2px;
+}
+
 .right
 {
     width: 20%;
