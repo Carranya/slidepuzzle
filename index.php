@@ -17,17 +17,16 @@
     
     echo "<div class='main'>";
         echo "<div class='left'>";
-                crop();
-                include "left.php"; 
+            include "left.php"; 
         echo "</div>";
 
         echo "<div class='content'>";
             echo "<div id='board'></div>";
             echo "<h2>Turns: <span id='turns'>0</span></h2>";
         echo "</div>";
-
+            
         echo "<div class='right'>";
-
+            include "right.php"; 
         echo "</div>";
     echo "</div>";
     echo "<div class='foot'>";
