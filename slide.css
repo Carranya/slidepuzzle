@@ -35,6 +35,23 @@ body
     border: 1px solid black;
 }
 
+.main
+{
+    display: flex;
+}
+
+.left
+{
+    width: 20%;
+    background-color: lightgreen;
+}
+
+.right
+{
+    width: 20%;
+    background-color: pink;
+}
+
 .foot
 {
     font-size: 0.8em;
