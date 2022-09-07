@@ -30,7 +30,7 @@
         echo "</div>";
     echo "</div>";
     echo "<div class='foot'>";
-        echo "<p>Version 1.0</p>";
+        echo "<p>Version 1.2</p>";
     echo "</div>";
     ?>
 </body>
